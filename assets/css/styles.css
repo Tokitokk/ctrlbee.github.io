@@ -93,7 +93,7 @@ button{
 }
 
 h1,h2,h3{
-  color: var(--first-color-alt);
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -285,7 +285,7 @@ the website, in dark theme
 /* Active link */
 .active-link{
   position: relative;
-  color: var(--first-color)  ;
+  color: var(--first-color);
 }
 
 .active-link::after{
@@ -301,14 +301,8 @@ the website, in dark theme
 /*=============== HOME ===============*/
 .home{
   padding: 3.5rem 0 2rem;
-  background-size: cover;
-  background-position: center;
-  padding: 20px; /* Добавляем отступы для наглядности */
-  
 }
-.dd{
-  margin-left: 1000px;
-}
+
 .home__container{
   position: relative;
   row-gap: 2rem;
@@ -321,14 +315,12 @@ the website, in dark theme
 
 .home__title{
   font-size: var(--big-font-size);
-  text-align: center;
-  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: var(--mb-1);
 }
 
 .home__description{
   margin-bottom: var(--mb-2-5);
-  text-align: center;
-  margin-left: 100px;
 }
 
 .home__social{
